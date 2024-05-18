@@ -1,0 +1,39 @@
+{
+  "id": "restaurant-list-pwa-1",
+  "start_url": "./index.html",
+  "name": "Hunger Apps",
+  "short_name": "Resto HA",
+  "description": "Welcome To, Hunger Apps Restaurant List",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#D84315",
+    "icons": [
+      {
+        "src": "images/spoon48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "images/spoon144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ],
+    "screenshots" : [
+      {
+        "src": "/images/manifest/ss_desktop.png",
+        "sizes": "1908x877",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "Hunger Apps Desktop View"
+      },
+      {
+        "src": "/images/manifest/ss_mobile.png",
+        "sizes": "366x736",
+        "type": "image/png",
+        "label": "Hunger Apps Mobile View"
+      }
+    ]
+  }

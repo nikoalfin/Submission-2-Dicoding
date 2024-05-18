@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free movie catalogue for you">
+    <meta name="theme-color" content="#DB0000"/>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./images/spoon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="manifest" href="./app.webmanifest">
+    <title>Restaurant Apps</title>
+  </head>
+  <body>
+    <a href="#maincontent" class="skip-link">Skip To Content</a>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <div class="navbar-brand">Hunger Apps</div>
+      <button type="button" class="hamburger" id="hamburgerButton">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </button>
+      <nav id="navigationDrawer" class="app-bar__navigation">
+        <ul class="navbar-menu">
+            <li class="navbar-menu-item"><a href="/">Home</a></li>
+            <li class="navbar-menu-item"><a href="/#/favorite">Favorite</a></li>
+            <li class="navbar-menu-item"><a href="https://github.com/nikoalfin" target="_blank">About Us</a></li>
+        </ul>
+      </nav>
+      
+  </div>
+
+  <!-- HERO ELEMENT -->
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>Welcome To,</h1>
+      <p>Hunger Apps</p><br>
+      <a href="#" id="skip-to-content" class="skip-to-content">List Restaurant</a>
+    </div>
+  </div>
+
+    <h1 class="explore" id="content">Explore Restaurant</h1>
+  <main id="maincontent" tabindex="0">
+    <div class="restaurant-container" id="restaurant-list"></div>
+  </main>
+  </body>
+
+  <!-- FOOTER -->
+  <footer>
+    copyright &copy; 2023 - Hunger Apps
+  </footer>
+
+  <script src="https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox-sw.js"></script>
+
+</html>
